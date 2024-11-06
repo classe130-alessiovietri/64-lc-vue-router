@@ -54,6 +54,10 @@ export default {
 			<p>
 				{{ post.content }}
 			</p>
+			
+			<div class="cover-container">
+				<img :src="post.full_cover_url" :alt="post.title">
+			</div>
 		</div>
 	</div>
 </template>
@@ -90,5 +94,9 @@ h1 {
 	padding: 2px 6px;
 	border-radius: 50px;
 	margin: 4px;
+}
+
+.post-container > .cover-container > img {
+	width: 100%;
 }
 </style>
