@@ -14,6 +14,14 @@ export default {
 				{
 					routeName: 'posts-index',
 					label: 'Blog'
+				},
+				{
+					routeName: 'posts-create',
+					label: 'Nuovo articolo'
+				},
+				{
+					routeName: 'contact',
+					label: 'Contatti'
 				}
 			]
 		};
